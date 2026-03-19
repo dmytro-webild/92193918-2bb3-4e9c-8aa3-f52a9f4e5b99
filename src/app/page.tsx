@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import ContactText from '@/components/sections/contact/ContactText';
@@ -39,42 +39,25 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboardTestimonial
-          title="Capture the Moment"
-          description="Tell Your Story"
-          background={{ variant: "plain" }}
-          testimonials={[
-            {
-              name: "Sarah Chen",              handle: "@clients_loved",              testimonial: "Misael captured the essence of my graduation day perfectly. Every shot tells a story.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/happy-business-woman-white-shirt_23-2148095748.jpg",              imageAlt: "happy client portrait smiling professional headshot"
-            },
-            {
-              name: "Michael Torres",              handle: "@portrait_fan",              testimonial: "Professional, creative, and absolutely worth every moment. Highly recommended.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-man-posing_23-2148563424.jpg",              imageAlt: "client portrait man professional headshot smiling"
-            },
-            {
-              name: "Emma Rodriguez",              handle: "@event_planner",              testimonial: "The attention to detail and artistic vision is unmatched. Simply incredible.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-sitting-chair-office_1303-21028.jpg",              imageAlt: "client testimonial portrait woman professional smiling"
-            },
-            {
-              name: "David Kim",              handle: "@family_photos",              testimonial: "Best decision for our family portraits. Timeless and beautiful.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/successful-senior-businessman-standing-window_1262-3120.jpg",              imageAlt: "client portrait man professional headshot satisfied"
-            }
+        <SocialProofOne
+          title="Live Feed from Instagram"
+          description="Follow my latest work and behind-the-scenes moments. Stay connected with my photography journey."
+          names={[
+            "@misaelsphotography",            "Premium Photography",            "Capturing Moments",            "Tell Your Story"
           ]}
-          testimonialRotationInterval={5000}
+          textboxLayout="default"
           useInvertedBackground={false}
-          tag="Premium Photography"
+          tag="Instagram Live Feed"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           buttons={[
-            { text: "Book Your Session Now", href: "#booking" },
+            { text: "Follow on Instagram", href: "https://instagram.com/misaelsphotography" },
             { text: "View Portfolio", href: "#portfolio" }
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/man-his-professional-photography-studio_23-2149033378.jpg"
-          imageAlt="professional portrait photographer cinematic lighting"
-          mediaAnimation="blur-reveal"
-          ariaLabel="Photography hero section with cinematic background"
+          speed={40}
+          showCard={true}
+          ariaLabel="Instagram live feed section"
         />
       </div>
 
