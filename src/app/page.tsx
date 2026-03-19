@@ -131,7 +131,7 @@ export default function LandingPage() {
           gridVariant="bento-grid"
           animationType="blur-reveal"
           buttons={[
-            { text: "Book a Session", href: "/contact-us" }
+            { text: "Book a Session", href: "/booking" }
           ]}
           buttonAnimation="slide-up"
           ariaLabel="Portfolio gallery grid section"
@@ -144,7 +144,7 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           useInvertedBackground={false}
           buttons={[
-            { text: "Request Booking", href: "mailto:walkingforward01@gmail.com?subject=Photography%20Session%20Request" }
+            { text: "Book Now", href: "/booking" }
           ]}
           animationType="entrance-slide"
           ariaLabel="Booking section call to action"
@@ -164,7 +164,7 @@ export default function LandingPage() {
               title: "Quick Links",              items: [
                 { label: "Portfolio", href: "/portfolio" },
                 { label: "About", href: "#about" },
-                { label: "Book Now", href: "#booking" }
+                { label: "Book Now", href: "/booking" }
               ]
             },
             {
