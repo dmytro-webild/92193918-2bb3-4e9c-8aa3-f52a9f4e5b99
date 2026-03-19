@@ -2,12 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import { Sparkles, Camera, Aperture, Film, Zap, Image } from 'lucide-react';
+import { Camera, Aperture, Film, Zap, Image } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -44,29 +43,6 @@ export default function LandingPage() {
             MISAELS PHOTOGRAPHY
           </h1>
         </div>
-      </div>
-
-      <div id="hero" data-section="hero">
-        <SocialProofOne
-          title="Live Feed from Instagram"
-          description="Follow my latest work and behind-the-scenes moments. Stay connected with my photography journey."
-          names={[
-            "Behind-the-Scenes Access",            "Exclusive Previews",            "Photography Tips & Tutorials",            "Follower Community"
-          ]}
-          textboxLayout="default"
-          useInvertedBackground={false}
-          tag="Instagram Live Feed"
-          tagIcon={Sparkles}
-          tagAnimation="slide-up"
-          buttons={[
-            { text: "Follow on Instagram", href: "https://instagram.com/misaelsphotography" },
-            { text: "View Portfolio", href: "/portfolio" }
-          ]}
-          buttonAnimation="slide-up"
-          speed={40}
-          showCard={true}
-          ariaLabel="Instagram live feed section"
-        />
       </div>
 
       <div id="about" data-section="about">
