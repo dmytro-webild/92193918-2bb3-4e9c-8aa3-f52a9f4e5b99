@@ -105,27 +105,27 @@ export default function LandingPage() {
           products={[
             {
               id: "portrait-1",              brand: "Portraits",              name: "Studio Portraits",              price: "Professional",              rating: 5,
-              reviewCount: "Premium",              imageSrc: "http://img.b2bpic.net/free-photo/creative-product-photographer-studio_23-2148970254.jpg",              imageAlt: "professional studio portrait lighting setup dark background"
+              reviewCount: "Premium",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930295998-8g14nh2m.jpg",              imageAlt: "professional studio portrait lighting setup dark background"
             },
             {
               id: "portrait-2",              brand: "Portraits",              name: "Environmental Portraits",              price: "Story-Driven",              rating: 5,
-              reviewCount: "Authentic",              imageSrc: "http://img.b2bpic.net/free-photo/woman-gardner-greenhouse_1303-14078.jpg",              imageAlt: "environmental portrait outdoor professional photography"
+              reviewCount: "Authentic",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930318289-ohch7oj5.jpg",              imageAlt: "environmental portrait outdoor professional photography"
             },
             {
               id: "lifestyle-1",              brand: "Lifestyle",              name: "Lifestyle Sessions",              price: "Candid",              rating: 5,
-              reviewCount: "Natural",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-woman-holding-flowers_23-2149647874.jpg",              imageAlt: "lifestyle photography candid moments natural lighting"
+              reviewCount: "Natural",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930338330-3htt5ia9.jpg",              imageAlt: "lifestyle photography candid moments natural lighting"
             },
             {
               id: "lifestyle-2",              brand: "Lifestyle",              name: "Cultural Moments",              price: "Vibrant",              rating: 5,
-              reviewCount: "Diverse",              imageSrc: "http://img.b2bpic.net/free-photo/friends-spending-some-quality-time-together_23-2149034103.jpg",              imageAlt: "cultural photography diverse people moments authentic"
+              reviewCount: "Diverse",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930368710-ts06xwgu.jpg",              imageAlt: "cultural photography diverse people moments authentic"
             },
             {
               id: "graduation-1",              brand: "Graduation",              name: "Graduation Photos",              price: "Celebratory",              rating: 5,
-              reviewCount: "Memorable",              imageSrc: "http://img.b2bpic.net/free-photo/blonde-girl-standing-with-crossed-arms-graduate-uniform-looking-pensive_176474-82634.jpg",              imageAlt: "graduation photography professional portrait session cap gown"
+              reviewCount: "Memorable",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930381028-63kwn8sl.jpg",              imageAlt: "graduation photography professional portrait session cap gown"
             },
             {
               id: "bw-1",              brand: "Black & White",              name: "Timeless Black & White",              price: "Classic",              rating: 5,
-              reviewCount: "Elegant",              imageSrc: "http://img.b2bpic.net/free-photo/attractive-caucasian-blonde-female-white-shirt-posing-brown-background_181624-46502.jpg",              imageAlt: "black and white portrait photography professional timeless"
+              reviewCount: "Elegant",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930392089-0pxfz0bx.jpg",              imageAlt: "black and white portrait photography professional timeless"
             }
           ]}
           gridVariant="bento-grid"
