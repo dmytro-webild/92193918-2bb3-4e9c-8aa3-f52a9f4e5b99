@@ -44,7 +44,6 @@ export default function LandingPage() {
           <TextAnimation
             type="entrance-slide"
             title="MISAELS PHOTOGRAPHY"
-            className="text-6xl md:text-7xl lg:text-8xl font-bold text-foreground"
           />
         </div>
       </div>
