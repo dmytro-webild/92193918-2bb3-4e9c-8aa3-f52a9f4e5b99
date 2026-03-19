@@ -144,7 +144,8 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           useInvertedBackground={false}
           buttons={[
-            { text: "Book Now", href: "/booking" }
+            { text: "Book Now", href: "/booking" },
+            { text: "Contact Us", href: "/contact-us" }
           ]}
           animationType="entrance-slide"
           ariaLabel="Booking section call to action"
