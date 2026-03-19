@@ -213,10 +213,10 @@ export default function BookingPage() {
                   Submit Booking Request
                 </button>
                 <a
-                  href="mailto:walkingforward01@gmail.com"
+                  href="/contact-us"
                   className="flex-1 px-6 py-3 bg-secondary-cta text-secondary-cta-text border border-accent/30 rounded-lg font-semibold hover:opacity-90 transition-opacity text-center"
                 >
-                  Email Direct
+                  Contact Us
                 </a>
               </div>
 
