@@ -7,7 +7,6 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import TextAnimation from '@/components/text/TextAnimation';
 import { Sparkles, Camera, Aperture, Film, Zap, Image } from 'lucide-react';
 
 export default function LandingPage() {
@@ -39,13 +38,11 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="headliner" data-section="headliner" className="w-full py-20 px-4 bg-background">
-        <div className="max-w-6xl mx-auto text-center">
-          <TextAnimation
-            type="entrance-slide"
-          >
+      <div id="headline" data-section="headline" className="w-full py-16 px-4 bg-gradient-to-b from-primary-cta/10 to-transparent">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-6xl md:text-7xl font-bold text-foreground mb-4">
             MISAELS PHOTOGRAPHY
-          </TextAnimation>
+          </h1>
         </div>
       </div>
 
