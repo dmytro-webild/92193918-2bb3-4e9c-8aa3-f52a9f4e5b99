@@ -43,7 +43,7 @@ export default function LandingPage() {
           title="Live Feed from Instagram"
           description="Follow my latest work and behind-the-scenes moments. Stay connected with my photography journey."
           names={[
-            "@misaelsphotography",            "Premium Photography",            "Capturing Moments",            "Tell Your Story"
+            "Behind-the-Scenes Access",            "Exclusive Previews",            "Photography Tips & Tutorials",            "Follower Community"
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
