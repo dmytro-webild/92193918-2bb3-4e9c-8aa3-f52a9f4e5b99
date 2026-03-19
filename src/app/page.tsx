@@ -79,7 +79,7 @@ export default function LandingPage() {
               title: "Real Moments Matter",              description: "Focusing on authentic, unscripted moments that tell the true story of your event.",              icon: Zap
             }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/studio-portrait-serious-plump-male-eyeglasses-grey-background_613910-13831.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930004164-z4y07pms.jpg"
           imageAlt="photographer portrait professional headshot studio"
           mediaAnimation="slide-up"
           imagePosition="right"
