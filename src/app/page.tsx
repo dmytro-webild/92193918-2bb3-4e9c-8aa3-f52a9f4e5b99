@@ -105,7 +105,7 @@ export default function LandingPage() {
           products={[
             {
               id: "portrait-1",              brand: "Portraits",              name: "Studio Portraits",              price: "Professional",              rating: 5,
-              reviewCount: "Premium",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930295998-8g14nh2m.jpg",              imageAlt: "professional studio portrait lighting setup dark background"
+              reviewCount: "Premium",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930521926-r1of9l15.jpg",              imageAlt: "professional studio portrait lighting setup dark background"
             },
             {
               id: "portrait-2",              brand: "Portraits",              name: "Environmental Portraits",              price: "Story-Driven",              rating: 5,
@@ -113,7 +113,7 @@ export default function LandingPage() {
             },
             {
               id: "lifestyle-1",              brand: "Lifestyle",              name: "Lifestyle Sessions",              price: "Candid",              rating: 5,
-              reviewCount: "Natural",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930338330-3htt5ia9.jpg",              imageAlt: "lifestyle photography candid moments natural lighting"
+              reviewCount: "Natural",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQ3abHj7nJoV9DleXcQnubKTBh/uploaded-1773930533701-l9gcnazp.jpg",              imageAlt: "lifestyle photography candid moments natural lighting"
             },
             {
               id: "lifestyle-2",              brand: "Lifestyle",              name: "Cultural Moments",              price: "Vibrant",              rating: 5,
