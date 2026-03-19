@@ -131,7 +131,7 @@ export default function LandingPage() {
           gridVariant="bento-grid"
           animationType="blur-reveal"
           buttons={[
-            { text: "Book a Session", href: "#booking" }
+            { text: "Book a Session", href: "/contact-us" }
           ]}
           buttonAnimation="slide-up"
           ariaLabel="Portfolio gallery grid section"
