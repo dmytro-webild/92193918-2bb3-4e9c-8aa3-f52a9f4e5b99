@@ -62,9 +62,9 @@ export default function ContactUsPage() {
             },
             {
               title: "Quick Links",              items: [
-                { label: "Portfolio", href: "/" },
-                { label: "About", href: "/" },
-                { label: "Book Now", href: "/" }
+                { label: "Portfolio", href: "/portfolio" },
+                { label: "About", href: "/#about" },
+                { label: "Book Now", href: "/#booking" }
               ]
             },
             {

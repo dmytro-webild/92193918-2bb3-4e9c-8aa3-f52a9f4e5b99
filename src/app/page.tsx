@@ -52,7 +52,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           buttons={[
             { text: "Follow on Instagram", href: "https://instagram.com/misaelsphotography" },
-            { text: "View Portfolio", href: "#portfolio" }
+            { text: "View Portfolio", href: "/portfolio" }
           ]}
           buttonAnimation="slide-up"
           speed={40}
@@ -86,7 +86,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[
-            { text: "View My Work", href: "#portfolio" }
+            { text: "View My Work", href: "/portfolio" }
           ]}
           buttonAnimation="slide-up"
           ariaLabel="About section with photographer bio"
@@ -162,7 +162,7 @@ export default function LandingPage() {
             },
             {
               title: "Quick Links",              items: [
-                { label: "Portfolio", href: "#portfolio" },
+                { label: "Portfolio", href: "/portfolio" },
                 { label: "About", href: "#about" },
                 { label: "Book Now", href: "#booking" }
               ]
