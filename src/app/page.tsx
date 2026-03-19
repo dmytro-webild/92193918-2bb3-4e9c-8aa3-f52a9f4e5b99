@@ -45,8 +45,6 @@ export default function LandingPage() {
             type="entrance-slide"
             title="MISAELS PHOTOGRAPHY"
             className="text-6xl md:text-7xl lg:text-8xl font-bold text-foreground"
-            duration={0.8}
-            stagger={0.1}
           />
         </div>
       </div>
