@@ -30,7 +30,7 @@ export default function LandingPage() {
             { name: "Portfolio", id: "portfolio" },
             { name: "About", id: "about" },
             { name: "Book Now", id: "booking" },
-            { name: "Contact", id: "contact" }
+            { name: "Contact", id: "contact-us" }
           ]}
           button={{
             text: "Follow on Instagram",            href: "https://instagram.com/misaelsphotography"
