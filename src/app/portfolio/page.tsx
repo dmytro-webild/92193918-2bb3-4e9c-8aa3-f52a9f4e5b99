@@ -169,9 +169,9 @@ export default function PortfolioPage() {
             },
             {
               title: "Quick Links",              items: [
+                { label: "Home", href: "/" },
                 { label: "Portfolio", href: "/portfolio" },
-                { label: "About", href: "/#about" },
-                { label: "Book Now", href: "/#booking" }
+                { label: "Book Now", href: "/booking" }
               ]
             },
             {
