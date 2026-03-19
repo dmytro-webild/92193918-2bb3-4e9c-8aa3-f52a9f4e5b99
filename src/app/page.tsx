@@ -7,6 +7,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
+import TextAnimation from '@/components/text/TextAnimation';
 import { Sparkles, Camera, Aperture, Film, Zap, Image } from 'lucide-react';
 
 export default function LandingPage() {
@@ -36,6 +37,18 @@ export default function LandingPage() {
             text: "Follow on Instagram",            href: "https://instagram.com/misaelsphotography"
           }}
         />
+      </div>
+
+      <div id="headliner" data-section="headliner" className="w-full py-20 px-4 bg-background">
+        <div className="max-w-6xl mx-auto text-center">
+          <TextAnimation
+            type="entrance-slide"
+            title="MISAELS PHOTOGRAPHY"
+            className="text-6xl md:text-7xl lg:text-8xl font-bold text-foreground"
+            duration={0.8}
+            stagger={0.1}
+          />
+        </div>
       </div>
 
       <div id="hero" data-section="hero">
