@@ -43,7 +43,6 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto text-center">
           <TextAnimation
             type="entrance-slide"
-            title="MISAELS PHOTOGRAPHY"
           >
             MISAELS PHOTOGRAPHY
           </TextAnimation>
